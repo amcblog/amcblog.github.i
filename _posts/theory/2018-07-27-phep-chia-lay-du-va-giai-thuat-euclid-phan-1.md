@@ -141,4 +141,4 @@ int gcdRecursion(int a, int b) {
 Mình tạm kết phần 1 tại đây, trong bài viết sau mình sẽ phân tích độ phức tạp của giải thuật Euclid và đề cập giải thuật Euclid mở rộng.
 Bạn đọc nếu có gì muốn góp ý gì về bài viết thoải mái *comment* và nếu cảm thấy bài viết bổ ích thì hãy *share* để bạn bè cùng đọc nhé! 
 
-Chúc bạn một ngày tốt lành ! :smiley:
+Chúc bạn một ngày tốt lành ! :)

@@ -8,6 +8,8 @@ tags:
   - algorithm
   - euclid
 excerpt: "Hiểu thêm về cơ sở toán học của giải thuật Euclid" 
+teaser: /images/theory/amc-blog-theory-1.jpg
+
 ---
 
 ## 1.  Chút kiến thức căn bản cần chuẩn bị
@@ -73,12 +75,19 @@ Nhớ lại chút về định nghĩa của phép chia lấy dư: ```a mod b = a
 ##### Áp dụng hệ quả:
 Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **Định lý 2** mục **1.4.2)** để tính *ước chung lớn nhất* của 2 số nguyên bất kỳ. Ví dụ, ta muốn tính ```gcd(64,24)```, quy trình như sau:
 >gcd(64,24) 
+>
 >= gcd(64 mod 24, 24)
+>
 >=  gcd(16,24)
+>
 >     = gcd(24 mod 16, 16)
+>
 >     = gcd(8, 16)
+>
 >     = gcd(16 mod 8, 8)
+>
 >     = gcd(0, 8)
+>
 >     = 8
 
 Như vậy ```gcd(64,24) = 8```. Bạn có thể thử với các số khác nếu muốn. :)

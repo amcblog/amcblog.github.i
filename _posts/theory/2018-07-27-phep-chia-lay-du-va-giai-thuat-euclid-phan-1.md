@@ -11,7 +11,7 @@ excerpt: "Hiểu thêm về cơ sở toán học của giải thuật Euclid"
 toc: true
 toc_label: "Nội dung"
 header:
-  overlay_image: /images/theory/u.jpg
+  image: /images/theory/u.jpg
   teaser: /images/theory/amc-blog-theory-1.jpg
   og_image: /images/theory/amc-blog-theory-1.jpg
 ---

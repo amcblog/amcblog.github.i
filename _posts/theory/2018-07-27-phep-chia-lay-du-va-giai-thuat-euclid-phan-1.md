@@ -31,8 +31,9 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
   Ví dụ: ```9 mod 8 = 1``` hay ```9%8 = 1```
 #### 1.3.1) Định nghĩa
 Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
+
 n mod  m = n - [n/m].m
-{: .notice--primary}
+{: .notice--info}
 
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :D

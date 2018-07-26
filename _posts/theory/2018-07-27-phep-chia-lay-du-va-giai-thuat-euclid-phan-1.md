@@ -30,6 +30,7 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
 
  1) Hãy chứng minh nếu một số nguyên```n``` là một số lẻ thì ```n^2 - 1``` luôn chia hết cho 8.
  2) Liệu rằng ```n^2 + n + 17``` là *số nguyên tố* với mọi số nguyên ```n > 1``` ?
+ 
  {: .notice--warning}
  
 ### 1.3) Một vài tính chất của phép chia lấy dư

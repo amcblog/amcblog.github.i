@@ -7,6 +7,7 @@ tags:
   - modulo
   - algorithm
   - euclid
+excerpt: "Hiểu thêm về cơ sở toán học của giải thuật Euclid" 
 ---
 
 ## 1.  Chút kiến thức căn bản cần chuẩn bị
@@ -30,7 +31,8 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
   Ví dụ: ```9 mod 8 = 1``` hay ```9%8 = 1```
 #### 1.3.1) Định nghĩa
 Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
-> n mod  m = n - [n/m].m
+n mod  m = n - [n/m].m
+{: .notice--primary}
 
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :D
@@ -82,7 +84,7 @@ Như vậy ```gcd(64,24) = 8```. Bạn có thể thử với các số khác n�
 ## 2. Giải thuật Euclid
 Thực ra khi thực hiện ví dụ trên là bạn đang chạy giải thuật Euclid rồi đấy. :))
 Giải thuật Euclid thực chất là giải thuật giúp bạn tính được *ước chung lớn nhất* của 2 số nguyên bất kỳ, dựa trên cơ sở toán học mà chúng ta đã đề cập và chứng minh ở trên.
-Có thể bạn đang cảm thấy giải thuật này cũng chẳng giúp ích được gì lắm đúng không ? ĐIểm thú vị của giải thuật Euclid ở chỗ nó giúp chúng thực hiện việc tính ```gcd()``` với các số lớn khá nhanh. Bài viết sau mình sẽ demo việc này cũng như thử xem xét độ phức tạp của giải thuật này.
+Có thể bạn đang cảm thấy giải thuật này cũng chẳng giúp ích được gì lắm đúng không ? Điểm thú vị của giải thuật Euclid ở chỗ nó giúp chúng thực hiện việc tính ```gcd()``` với các số lớn khá nhanh. Bài viết sau mình sẽ demo việc này cũng như thử xem xét độ phức tạp của giải thuật này.
 Bây giờ chúng ta sẽ implement giải thuật Euclid bằng code C++ nhé. Ta làm đúng theo các bước như khi ta thực hiện ví dụ trước thôi.
 ```cpp
 int gcd(int a, int b) {

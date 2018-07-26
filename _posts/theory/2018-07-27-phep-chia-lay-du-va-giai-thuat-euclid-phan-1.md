@@ -33,8 +33,10 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
   Ví dụ: ```9 mod 8 = 1``` hay ```9%8 = 1```
 #### 1.3.1) Định nghĩa
 Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
+
 ```
 n mod  m = n - [n/m].m
+
 ```
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :D
@@ -43,9 +45,11 @@ Có nhiều ứng dụng khá hay của phép chia lấy dư nhưng mình sẽ k
 #### 1.4.1) Định nghĩa 
 1. Một số nguyên ```d``` được gọi là *ước chung* của ```a``` và ```b``` nếu ```a``` và ```b``` cùng chia hết cho ```d```, hay nói cách khác, khi ```d|a``` và ```d|b```.
 2. *Ước chung lớn nhất* của ```a``` và ```b```, hai số nguyên khác 0, được định nghĩa là số nguyên ```d``` lớn nhất trong các *ước chung* của ```a``` và ```b```. Ta ký hiệu là như sau:
+
 ```
 d = gcd(a, b)
 ```
+
 #### 1.4.2) Định lý
 1. Nếu ```a``` và ```b``` là các số nguyên thì ```gcd(a,b) = gcd(|a|,|b|)```.
 2. Nếu ```a``` và ```b``` là các số nguyên thì ```gcd(a,b) = gcd(b,a)```.
@@ -55,14 +59,18 @@ d = gcd(a, b)
 ##### Chứng minh Định lý 3:
 Ta cần chứng minh rằng *ước chung* của ```a``` và ```b``` giống với *ước chung* của ```a + kb``` và ```b```.
 Giả sử rằng ```d|a``` và ```d|b``` thì ```a = x.d``` và ```b = y.d``` (```x```, ```y```  là các số nguyên). Khi đó ta có:
+
 ```
 a + k.b = x.d + k.y.d = (x + k.y).d	
 ```
+
 Từ đó suy ra ```d``` là ước của ```a + k.b```. Vậy ```d``` là *ước chung* của ```a + k.b``` và ```b```.
 Ngược lại, ta giả sử  ``c`` là *ước chung* của ```a + k.b``` và ```b``` thì  ```a + k.b = x.c``` và ```b = y.c``` với ```x```,```y``` là các số nguyên. Khi đó ta có:
+
 ```
 a = x.c - k.b = x.c - k.y.c = (x - k.y).c
 ```
+
 Từ đó suy ra ```c``` là *ước chung* của ```a``` và ```b```.
 
 Từ hai chứng minh trên ta suy ra tập *ước chung* của ```(a,b)``` giống với tập *ước chung* của ```(a + kb,b)```. Do vậy ```gcd(a,b) = gcd(a + kb,b)```.

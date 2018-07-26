@@ -14,12 +14,12 @@ header:
 ---
 
 ## 1.  Chút kiến thức căn bản cần chuẩn bị
-#### 1.1)   Một vài định nghĩa cơ bản về số học
+### 1.1)   Một vài định nghĩa cơ bản về số học
 1. Khi ta nói rằng ```m``` chia hết cho ```n``` ( ```m```,``` n``` là các số nguyên) thì ta viết một cách ngắn gọn như sau: ```n|m```. Nghĩa là ```n.a = m``` (```a``` là số nguyên).
 2. Một số nguyên ```p > 1``` là *số nguyên tố* nếu nó chỉ chia hết cho 1 và chính nó.
 3. Một số nguyên ```q > 1``` nếu không phải là *số nguyên tố* thì được gọi là *hợp số*. 
 
-#### 1.2) Định lý
+### 1.2) Định lý
 Với a, b, c, x, y là các số nguyên, thì: 
 1. Nếu ```a|b``` và ```b|a``` thì ```a = b``` và ```a = -b```.
 2. Nếu ```a|b``` và ```b|c``` thì ```a|c```.
@@ -27,8 +27,10 @@ Với a, b, c, x, y là các số nguyên, thì:
 Việc chứng minh các định lý trên không quá phức tạp, mình sẽ nhường công việc thú vị này cho bạn đọc. Nếu bạn có thắc mắc gì hãy thoải mái comment xuống bên dưới bài viết nhé! :D
 
 Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
+
  1) Hãy chứng minh nếu một số nguyên```n``` là một số lẻ thì ```n^2 - 1``` luôn chia hết cho 8.
  2) Liệu rằng ```n^2 + n + 17``` là *số nguyên tố* với mọi số nguyên ```n > 1``` ?
+ {% capture notice-2 %}
  
 ### 1.3) Một vài tính chất của phép chia lấy dư
   Phép chia lấy dư có lẽ đã rất quen thuộc với nhiều người, chúng ta đã được học nó từ cấp 1, ví dụ như 9 chia 8 dư 1.

@@ -35,7 +35,6 @@ Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép
 
 ```
 n mod  m = n - [n/m].m
-
 ```
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :D
@@ -86,7 +85,7 @@ Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **�
 
 ```
 gcd(64,24) = gcd(64 mod 24, 24)
-	   =  gcd(16,24)
+	   = gcd(16,24)
 	   = gcd(24 mod 16, 16)
      	   = gcd(8, 16)
            = gcd(16 mod 8, 8)

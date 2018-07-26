@@ -26,13 +26,13 @@ Với a, b, c, x, y là các số nguyên, thì:
 1. Nếu ```a|b``` và ```b|a``` thì ```a = b``` và ```a = -b```.
 2. Nếu ```a|b``` và ```b|c``` thì ```a|c```.
 3. Nếu ```c|a``` và ```c|b``` thì ```c|(a.x + b.y)```.
-Việc chứng minh các định lý trên không quá phức tạp, mình sẽ nhường công việc thú vị này cho bạn đọc. Nếu bạn có thắc mắc gì hãy thoải mái comment xuống bên dưới bài viết nhé! :D
+Việc chứng minh các định lý trên không quá phức tạp, mình sẽ nhường công việc thú vị này cho bạn đọc. Nếu bạn có thắc mắc gì hãy thoải mái comment xuống bên dưới bài viết nhé! :smile:
 
-Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :3
+Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :smiley:
 
- 1) Hãy chứng minh nếu một số nguyên```n``` là một số lẻ thì ```n^2 - 1``` luôn chia hết cho 8.
+ 1) Hãy chứng minh nếu một số nguyên n là một số lẻ thì n^2 - 1 luôn chia hết cho 8.
  {: .notice--warning}
- 2) Liệu rằng ```n^2 + n + 17``` là *số nguyên tố* với mọi số nguyên ```n > 1``` ?
+ 2) Liệu rằng n^2 + n + 17 là *số nguyên tố* với mọi số nguyên n > 1 ?
  {: .notice--warning}
  
 ### 1.3) Một vài tính chất của phép chia lấy dư
@@ -46,7 +46,7 @@ Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép
 n mod  m = n - [n/m].m
 ```
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
-Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :D
+Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :smiley:
 Có nhiều ứng dụng khá hay của phép chia lấy dư nhưng mình sẽ không đề cập ở bài viết này để tránh lan man.
 ### 1.4)  Ước chung lớn nhất (greatest common divisor)
 #### 1.4.1) Định nghĩa 
@@ -62,7 +62,7 @@ d = gcd(a, b)
 2. Nếu ```a``` và ```b``` là các số nguyên thì ```gcd(a,b) = gcd(b,a)```.
 3. Nếu ```a```, ```b``` và ```k``` là các số nguyên thì ```gcd(a,b) = gcd(a + kb,b)```
 
-Định lý 1 và 2 mình sẽ để cho bạn đọc tự chứng minh, mình chỉ chứng minh định lý 3, đây cũng chính là định lý nền tảng cho giải thuật Euclid. ;-)
+Định lý 1 và 2 mình sẽ để cho bạn đọc tự chứng minh, mình chỉ chứng minh định lý 3, đây cũng chính là định lý nền tảng cho giải thuật Euclid. :wink:
 ##### Chứng minh Định lý 3:
 Ta cần chứng minh rằng *ước chung* của ```a``` và ```b``` giống với *ước chung* của ```a + kb``` và ```b```.
 Giả sử rằng ```d|a``` và ```d|b``` thì ```a = x.d``` và ```b = y.d``` (```x```, ```y```  là các số nguyên). Khi đó ta có:
@@ -102,7 +102,7 @@ gcd(64,24) = gcd(64 mod 24, 24)
            = 8
 ```
 
-Như vậy ```gcd(64,24) = 8```. Bạn có thể thử với các số khác nếu muốn. :)
+Như vậy ```gcd(64,24) = 8```. Bạn có thể thử với các số khác nếu muốn. :smile:
 ## 2. Giải thuật Euclid
 Thực ra khi thực hiện ví dụ trên là bạn đang chạy giải thuật Euclid rồi đấy. :))
 
@@ -141,4 +141,4 @@ int gcdRecursion(int a, int b) {
 Mình tạm kết phần 1 tại đây, trong bài viết sau mình sẽ phân tích độ phức tạp của giải thuật Euclid và đề cập giải thuật Euclid mở rộng.
 Bạn đọc nếu có gì muốn góp ý gì về bài viết thoải mái *comment* và nếu cảm thấy bài viết bổ ích thì hãy *share* để bạn bè cùng đọc nhé! 
 
-Chúc bạn một ngày tốt lành ! :D 
+Chúc bạn một ngày tốt lành ! :smiley:

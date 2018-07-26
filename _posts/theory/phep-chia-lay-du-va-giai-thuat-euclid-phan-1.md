@@ -9,7 +9,6 @@ tags:
   - euclid
 excerpt: "Hiểu thêm về cơ sở toán học của giải thuật Euclid" 
 teaser: /images/theory/amc-blog-theory-1.jpg
-
 ---
 
 ## 1.  Chút kiến thức căn bản cần chuẩn bị

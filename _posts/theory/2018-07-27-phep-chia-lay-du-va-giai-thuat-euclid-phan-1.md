@@ -27,6 +27,7 @@ Với a, b, c, x, y là các số nguyên, thì:
 1. Nếu ```a|b``` và ```b|a``` thì ```a = b``` và ```a = -b```.
 2. Nếu ```a|b``` và ```b|c``` thì ```a|c```.
 3. Nếu ```c|a``` và ```c|b``` thì ```c|(a.x + b.y)```.
+
 Việc chứng minh các định lý trên không quá phức tạp, mình sẽ nhường công việc thú vị này cho bạn đọc. Nếu bạn có thắc mắc gì hãy thoải mái comment xuống bên dưới bài viết nhé! :smile:
 
 Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :smiley:

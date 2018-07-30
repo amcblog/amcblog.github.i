@@ -40,13 +40,14 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :smiley:
 ### 1.3) Một vài tính chất của phép chia lấy dư
   Phép chia lấy dư có lẽ đã rất quen thuộc với nhiều người, chúng ta đã được học nó từ cấp 1, ví dụ như 9 chia 8 dư 1.
   Người ta ký hiệu phép chia lấy dư là ```mod```, trong nhiều ngôn ngữ lập trình chúng ta có ký hiệu ```%``` với ý nghĩa tương đương.
-  Ví dụ: $$9 mod 8 = 1$$ hay $$9%8 = 1$$
+  Ví dụ: $$9 \mod 8 = 1$$ hay $$9\%8 = 1$$
 #### 1.3.1) Định nghĩa
 Với $$n$$ và $$m (m > 0)$$ là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
 
 $$
 n mod  m = n - [n/m].m
 $$
+
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :smiley:
 Có nhiều ứng dụng khá hay của phép chia lấy dư nhưng mình sẽ không đề cập ở bài viết này để tránh lan man.

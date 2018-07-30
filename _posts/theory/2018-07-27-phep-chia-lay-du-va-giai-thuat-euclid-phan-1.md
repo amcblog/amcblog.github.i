@@ -48,7 +48,7 @@ $$
 n \ \text{mod} \ m = n - [n/m].m
 $$
 
-Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, $$9/8 = 1.125$$ nên  $$[9/8] = 1$$.
+Trong đó $$[n/m]$$ là phép chia lấy phần nguyên. Ví dụ, $$9/8 = 1.125$$ nên  $$[9/8] = 1$$.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :smiley:
 Có nhiều ứng dụng khá hay của phép chia lấy dư nhưng mình sẽ không đề cập ở bài viết này để tránh lan man.
 ### 1.4)  Ước chung lớn nhất (greatest common divisor)
@@ -95,6 +95,7 @@ Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a
 ##### Áp dụng hệ quả:
 Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **Định lý 2** mục **1.4.2)** để tính *ước chung lớn nhất* của 2 số nguyên bất kỳ. Ví dụ, ta muốn tính $$gcd(64,24)$$, quy trình như sau:
 
+```
 $$
 gcd(64, 24) \\
 	   = gcd(64 \ \text{mod} \ 24, 24) \\
@@ -105,6 +106,7 @@ gcd(64, 24) \\
            = gcd(0, 8) \\
            = 8
 $$
+```
 
 Như vậy $$gcd(64,24) = 8$$. Bạn có thể thử với các số khác nếu muốn. :smile:
 ## 2. Giải thuật Euclid

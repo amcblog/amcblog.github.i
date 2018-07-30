@@ -91,7 +91,7 @@ Từ định lý 3 ta rút ra 1 hệ quả quan trọng là nền tảng cho gi�
 ##### Hệ quả:
 Với $$a$$ và $$b$$ là các số nguyên, $$b > 0$$ thì $$gcd(a,b) = gcd(a \ \text{mod} \ b,b)$$
 ##### Chứng minh:
-Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a - [a/b].b$$, suy ra $$a \mod b = a + k.b$$ với $$k = -[a/b]$$. Do đó hệ quả là đúng.
+Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a - [a/b].b$$, suy ra $$a \ \text{mod} \ b = a + k.b$$ với $$k = -[a/b]$$. Do đó hệ quả là đúng.
 ##### Áp dụng hệ quả:
 Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **Định lý 2** mục **1.4.2)** để tính *ước chung lớn nhất* của 2 số nguyên bất kỳ. Ví dụ, ta muốn tính $$gcd(64,24)$$, quy trình như sau:
 

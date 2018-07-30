@@ -96,13 +96,13 @@ Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a
 Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **Định lý 2** mục **1.4.2)** để tính *ước chung lớn nhất* của 2 số nguyên bất kỳ. Ví dụ, ta muốn tính $$gcd(64,24)$$, quy trình như sau:
 
 $$
-gcd(64, 24) \newline
-	   = gcd(64 \ \text{mod} \ 24, 24) \newline
-	   = gcd(16, 24) \newline
-	   = gcd(24 \ \text{mod} \ 16, 16) \newline
-     	   = gcd(8, 16) \newline
-           = gcd(16 \ \text{mod} \ 8, 8) \newline
-           = gcd(0, 8) \newline
+gcd(64, 24) \\
+	   = gcd(64 \ \text{mod} \ 24, 24) \\
+	   = gcd(16, 24) \\
+	   = gcd(24 \ \text{mod} \ 16, 16) \\
+     	   = gcd(8, 16) \\
+           = gcd(16 \ \text{mod} \ 8, 8) \\
+           = gcd(0, 8) \\
            = 8
 $$
 

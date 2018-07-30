@@ -18,7 +18,7 @@ header:
 
 ## 1.  Chút kiến thức căn bản cần chuẩn bị
 ### 1.1)   Một vài định nghĩa cơ bản về số học
-1. Khi ta nói rằng $$m$$ chia hết cho $$n$$ ($$m$$, $$n$$ là các số nguyên) thì ta viết một cách ngắn gọn như sau: $$n|m$$. Nghĩa là $$n.a = m$$($$a$$ là số nguyên).
+1. Khi ta nói rằng $$m$$ chia hết cho $$n$$ ($$m$$, $$n$$ là các số nguyên) thì ta viết một cách ngắn gọn như sau: $$n$$|$$m$$. Nghĩa là $$n$$.$$a$$ = $$m$$($$a$$ là số nguyên).
 2. Một số nguyên ```p > 1``` là *số nguyên tố* nếu nó chỉ chia hết cho 1 và chính nó.
 3. Một số nguyên ```q > 1``` nếu không phải là *số nguyên tố* thì được gọi là *hợp số*. 
 

@@ -89,7 +89,7 @@ Từ định lý 3 ta rút ra 1 hệ quả quan trọng là nền tảng cho gi�
 #### 1.4.3) Hệ quả Định lý 3
 
 ##### Hệ quả:
-Với $$a$$ và $$b$$ là các số nguyên, $$b > 0$$ thì $$gcd(a,b) = gcd(a \mod b,b)$$
+Với $$a$$ và $$b$$ là các số nguyên, $$b > 0$$ thì $$gcd(a,b) = gcd(a $$\mod$$ b,b)$$
 ##### Chứng minh:
 Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a - [a/b].b$$, suy ra $$a \mod b = a + k.b$$ với $$k = -[a/b]$$. Do đó hệ quả là đúng.
 ##### Áp dụng hệ quả:

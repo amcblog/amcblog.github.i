@@ -19,34 +19,34 @@ header:
 ## 1.  Chút kiến thức căn bản cần chuẩn bị
 ### 1.1)   Một vài định nghĩa cơ bản về số học
 1. Khi ta nói rằng $$m$$ chia hết cho $$n$$ ($$m$$, $$n$$ là các số nguyên) thì ta viết một cách ngắn gọn như sau: $$n \mid m$$. Nghĩa là $$n$$.$$a$$ = $$m$$ ($$a$$ là số nguyên).
-2. Một số nguyên ```p > 1``` là *số nguyên tố* nếu nó chỉ chia hết cho 1 và chính nó.
-3. Một số nguyên ```q > 1``` nếu không phải là *số nguyên tố* thì được gọi là *hợp số*. 
+2. Một số nguyên $$p > 1$$ là *số nguyên tố* nếu nó chỉ chia hết cho 1 và chính nó.
+3. Một số nguyên $$q > 1$$ nếu không phải là *số nguyên tố* thì được gọi là *hợp số*. 
 
 ### 1.2) Định lý
 Với a, b, c, x, y là các số nguyên, thì: 
-1. Nếu ```a|b``` và ```b|a``` thì ```a = b``` và ```a = -b```.
-2. Nếu ```a|b``` và ```b|c``` thì ```a|c```.
-3. Nếu ```c|a``` và ```c|b``` thì ```c|(a.x + b.y)```.
+1. Nếu $$a \mid b$$ và $$b \mid a$$ thì $$a = \pm b$$.
+2. Nếu $$a \mid b$$ và $$b \mid c$$ thì $$a \mid c$$.
+3. Nếu $$c \mid a$$ và $$c \mid b$$ thì $$c \mid (a.x + b.y)$$.
 
 Việc chứng minh các định lý trên không quá phức tạp, mình sẽ nhường công việc thú vị này cho bạn đọc. Nếu bạn có thắc mắc gì hãy thoải mái comment xuống bên dưới bài viết nhé! :smile:
 
 Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :smiley:
 
- 1) Hãy chứng minh nếu một số nguyên n là một số lẻ thì n^2 - 1 luôn chia hết cho 8.
+ 1) Hãy chứng minh nếu một số nguyên $$n$$ là một số lẻ thì $$n^{2} - 1$$ luôn chia hết cho 8.
  {: .notice--warning}
- 2) Liệu rằng n^2 + n + 17 là *số nguyên tố* với mọi số nguyên n > 1 ?
+ 2) Liệu rằng $$n^{2} + n + 17$$ là *số nguyên tố* với mọi số nguyên $$n > 1$$ ?
  {: .notice--warning}
  
 ### 1.3) Một vài tính chất của phép chia lấy dư
   Phép chia lấy dư có lẽ đã rất quen thuộc với nhiều người, chúng ta đã được học nó từ cấp 1, ví dụ như 9 chia 8 dư 1.
   Người ta ký hiệu phép chia lấy dư là ```mod```, trong nhiều ngôn ngữ lập trình chúng ta có ký hiệu ```%``` với ý nghĩa tương đương.
-  Ví dụ: ```9 mod 8 = 1``` hay ```9%8 = 1```
+  Ví dụ: $$9 mod 8 = 1$$ hay $$9%8 = 1$$
 #### 1.3.1) Định nghĩa
-Với ```n``` và ```m (m > 0)``` là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
+Với $$n$$ và $$m (m > 0)$$ là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
 
-```
+$$
 n mod  m = n - [n/m].m
-```
+$$
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, ```9/8 = 1.125``` nên  ```[9/8] = 1```.
 Bạn có thể thử vài số bất kỳ để kiểm chứng định nghĩa trên. :smiley:
 Có nhiều ứng dụng khá hay của phép chia lấy dư nhưng mình sẽ không đề cập ở bài viết này để tránh lan man.

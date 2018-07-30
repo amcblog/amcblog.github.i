@@ -45,7 +45,7 @@ Mình bonus 2 vấn đề nho nhỏ sau với bạn đọc hiếu kỳ :smiley:
 Với $$n$$ và $$m (m > 0)$$ là các số nguyên, ta định nghĩa phép chia lấy dư như sau:
 
 $$
-n \mod m = n - [n/m].m
+n \ \text{mod} \ m = n - [n/m].m
 $$
 
 Trong đó ```[n/m]``` là phép chia lấy phần nguyên. Ví dụ, $$9/8 = 1.125$$ nên  $$[9/8] = 1$$.
@@ -89,7 +89,7 @@ Từ định lý 3 ta rút ra 1 hệ quả quan trọng là nền tảng cho gi�
 #### 1.4.3) Hệ quả Định lý 3
 
 ##### Hệ quả:
-Với $$a$$ và $$b$$ là các số nguyên, $$b > 0$$ thì $$gcd(a,b) = gcd(a $$\mod$$ b,b)$$
+Với $$a$$ và $$b$$ là các số nguyên, $$b > 0$$ thì $$gcd(a,b) = gcd(a \ \text{mod} \ b,b)$$
 ##### Chứng minh:
 Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a - [a/b].b$$, suy ra $$a \mod b = a + k.b$$ với $$k = -[a/b]$$. Do đó hệ quả là đúng.
 ##### Áp dụng hệ quả:
@@ -97,11 +97,11 @@ Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **�
 
 $$
 gcd(64, 24) \newline
-	   = gcd(64\mod24, 24) \newline
+	   = gcd(64 \ \text{mod} \ 24, 24) \newline
 	   = gcd(16, 24) \newline
-	   = gcd(24\mod 16, 16) \newline
+	   = gcd(24 \ \text{mod} \ 16, 16) \newline
      	   = gcd(8, 16) \newline
-           = gcd(16 \mod 8, 8) \newline
+           = gcd(16 \ \text{mod} \ 8, 8) \newline
            = gcd(0, 8) \newline
            = 8
 $$

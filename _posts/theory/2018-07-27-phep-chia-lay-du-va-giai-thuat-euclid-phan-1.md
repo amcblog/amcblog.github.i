@@ -61,7 +61,7 @@ d = gcd(a, b)
 $$
 
 #### 1.4.2) Định lý
-1. Nếu $$a$$ và $$b$$ là các số nguyên thì $$gcd(a,b) = gcd(\left | a \right |,\left | b \right |)$$.
+1. Nếu $$a$$ và $$b$$ là các số nguyên thì $$gcd(a,b) = gcd(\mid a \mid,\mid b \mid)$$.
 2. Nếu $$a$$ và $$b$$ là các số nguyên thì $$gcd(a,b) = gcd(b,a)$$.
 3. Nếu $$a$$, $$b$$ và $$k$$ là các số nguyên thì $$gcd(a,b) = gcd(a + k.b,b)$$
 
@@ -96,13 +96,13 @@ Nhớ lại chút về định nghĩa của phép chia lấy dư: $$a \mod b = a
 Bây giờ chúng ta sẽ sử dụng **hệ quả** trên kết hợp với **Định lý 2** mục **1.4.2)** để tính *ước chung lớn nhất* của 2 số nguyên bất kỳ. Ví dụ, ta muốn tính $$gcd(64,24)$$, quy trình như sau:
 
 $$
-gcd(64, 24) = gcd(64 \mod 24, 24)
-	   = gcd(16, 24)
-	   = gcd(24 \mod 16, 16)
-     	   = gcd(8, 16)
-           = gcd(16 \mod 8, 8)
-           = gcd(0, 8)
-           = 8
+gcd(64, 24) = gcd(64\mod24, 24) \newline
+\hspace{5cm}	   = gcd(16, 24) \newline
+\hspace{1cm}	   = gcd(24\mod 16, 16) \newline
+\hspace{1cm}     	   = gcd(8, 16) \newline
+\hspace{1cm}           = gcd(16 \mod 8, 8) \newline
+\hspace{1cm}           = gcd(0, 8) \newline
+\hspace{1cm}           = 8
 $$
 
 Như vậy $$gcd(64,24) = 8$$. Bạn có thể thử với các số khác nếu muốn. :smile:

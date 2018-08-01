@@ -383,8 +383,11 @@ pp {
 }
 
 .page__comments-title {
-  margin-top: 0.5rem;
-  font-size: 0.95em;
+  margin-top: 2rem;
+  margin-bottom: 10px;
+  padding-top: 2rem;
+  font-size: $type-size-6;
+  border-top: 1px solid $border-color;
   text-transform: uppercase;
 }
 
@@ -405,7 +408,6 @@ pp {
     }
   }
 }
-
 
 .comment {
   @include clearfix();
@@ -458,15 +460,14 @@ pp {
 }
 
 .comment__date {
-  font-family: $sans-serif;
-  font-size: 0.7em;
+  @extend .page__meta;
   margin: 0;
 
   a {
     text-decoration: none;
-    color: #7d8994;
   }
 }
+
 
 /*
    Related

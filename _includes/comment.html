@@ -4,9 +4,9 @@
     {% if include.avatar %}
       <img src="{{ include.avatar }}" alt="{{ include.name | escape }}" />
     {% elsif include.email %}
-         <img class="comment__avatar" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=80" alt="{{ include.name }}">
+         <img src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s=80" alt="{{ include.name }}">
     {% else %}
-      <img class="comment__avatar" src="{{ site.url }}/assets/images/avatar-60.png" srcset="{{ site.url }}/assets/images/avatar-120.png 2x" alt="{{ include.name | escape }}" />
+      <img src="{{ site.url }}/assets/images/avatar-60.png" srcset="{{ site.url }}/assets/images/avatar-120.png 2x" alt="{{ include.name | escape }}" />
     {% endif %}
   </div>
 

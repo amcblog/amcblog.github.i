@@ -20,9 +20,7 @@ Mã hóa và giải mã là những ví dụ điển hình cho *bài toán tính
 
 Cuốn sách viết về những vấn đề kể trên mà mình muốn giới thiệu ngày hôm nay là cuốn __"Mật mã - Từ cổ điển đến lượng tử"__ của tác giả *Simon Singh*, một nhà văn, nhà sản xuất truyền hình nổi tiếng chuyên về lĩnh vực toán và khoa học. Cuốn sách được xuất bản năm 1999 (trùng với năm sinh của người viết bài :'>), sau thành công của cuốn sách trước đó của ông là cuốn *"Định lý cuối cùng của Fermat"* (1997). Cuốn sách dễ dàng lôi cuốn người đọc bởi cách dẫn dắt vấn đề rất khéo léo của Singh, trước khi đi đến bài toán kỹ thuật cụ thể, ông kể cho người đọc nghe về một câu chuyện lịch sử gắn với bài toán đó. Ông gieo vấn đề để người đọc suy nghĩ trước, đó là những mật mã khó mà tưởng chừng như không thể giải mã nổi, rồi sau đó ông lại tiếp tục kể câu chuyện lịch sử của mình, xen vào đó là lỗ hổng của mật mã dần được tìm ra và cuối cùng là cách giải mã nó.
 
-{% capture fig_img_1 width="380"%}
-![Foo]({{ "/images/others/the-code-book.jpg" | relative_url }})
-{% endcapture %}
+<img src="/images/others/the-code-book.jpg" width="380"> 
 
 <figure>
   {{ fig_img_1 | markdownify | remove: "<p>" | remove: "</p>" }}

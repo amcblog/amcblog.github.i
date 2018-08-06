@@ -37,7 +37,7 @@ Cuốn sách bắt đầu với một câu chuyện ly kỳ về âm mưu Babing
 
 <figure>
   {{ fig_img_2 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Nữ hoàng Mary xứ Scotland. ![Nguồn ảnh](http://reign.wikia.com/wiki/History%27s_Mary,_Queen_of_Scots)</figcaption>
+  <figcaption>Nữ hoàng Mary xứ Scotland. [Nguồn ảnh](http://reign.wikia.com/wiki/History%27s_Mary,_Queen_of_Scots)</figcaption>
 </figure>
 
 Toán học và mật mã có sự liên quan mật thiết với nhau, theo dòng lịch sử, ta lại càng thấy rõ được điều đó. Sự xuất hiện của máy *"Enigma"* của quân đội Đức trước Chiến tranh Thế giới thứ hai khiến cho các nhà giải mã phải sử dụng những phương thức toán học mạnh để phá giải nó. Những nỗ lực đầu tiên đến từ những người Ba Lan, bắt đầu từ năm 1930, họ tuyển chọn một nhóm gồm 20 nhà toán học mà trong đó có Marian Rejewski, người đã tìm được ra cách phá giải mật mã *"Enigma"* với những chiếc máy *"bombe"* của mình. Ngay trước cuộc xâm lược của Đức quốc xã vào năm 1939, Ba Lan đã bí mật chuyển tới London phương pháp giải mã *"Enigma"*, cung cấp cho người Anh một chỉ dẫn quan trọng trong việc đánh bại phiên bản *"Enigma"* phức tạp hơn nhiều được sử dụng trong chiến tranh. Người tiên phong trong việc giải mã phiên bản *"Enigma"* phức tạp hơn này là Alan Turing.
@@ -48,7 +48,7 @@ Toán học và mật mã có sự liên quan mật thiết với nhau, theo dò
 
 <figure>
   {{ fig_img_3 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Máy Enigma I dùng trong quân sự. ![Nguồn ảnh](https://en.wikipedia.org/wiki/Enigma_machine)</figcaption>
+  <figcaption>Máy Enigma I dùng trong quân sự. [Nguồn ảnh](https://en.wikipedia.org/wiki/Enigma_machine)</figcaption>
 </figure>
 
 Nhưng những điều kể trên vẫn chưa phải là phương pháp toán học gây bất ngờ và tuyệt vời nhất của mật mã học. Phương pháp mà Singh cho là "thành tựu lớn nhất của *mật mã thay thế dùng một bảng chữ cái* trong suốt 2000 năm", đó là *mật mã hóa khóa công khai*. Nó dựa trên ý tưởng mang tính cách mạng rằng ta có thể *công khai* hoàn toàn *cách thức mã hóa* văn bản để mọi người có thể dựa vào đấy mà mã hóa văn bản của họ rồi gửi cho ta, văn bản mã hóa chỉ mình ta giải mã được vì ta là người duy nhất giữ *khóa bí mật* (*"private key"*). Nếu không biết *khóa bí mật* thì kẻ gian nếu có bắt chặn được văn bản thì cũng không thể giải mã dù biết rõ *cách thức mã hóa*. Lý thuyết đằng sau phương pháp mã hóa tuyệt vời này được Whitfield Diffie, Martin Hellman và Ralph Merkle công bố năm 1976.
@@ -61,7 +61,7 @@ Một trong những đặc điểm thú vị nhất của *mật mã hóa khóa 
 
 <figure>
   {{ fig_img_4 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Sơ đồ nguyên lý của *mật mã hóa khóa công khai*. ![Nguồn ảnh](https://www.c-sharpcorner.com/UploadFile/75a48f/rsa-algorithm-with-C-Sharp2/)</figcaption>
+  <figcaption>Sơ đồ nguyên lý của *mật mã hóa khóa công khai*. [Nguồn ảnh](https://www.c-sharpcorner.com/UploadFile/75a48f/rsa-algorithm-with-C-Sharp2/)</figcaption>
 </figure>
 
 Theo dòng chảy của lịch sử thì đến đây dường như RSA đã trở thành loại mật mã không thể phá giải. Điều này bắt đầu gây ra mối lo ngại đối với các tổ chức chính phủ vì nếu mật mã quá mạnh thì họ sẽ mất đi khả năng kiểm soát thông tin.  Chính phủ phải quyết định có nên sử dụng loại mật mã này hay không vì lợi ích là người dân có được sự riêng tư nhưng bên cạnh đó tội phạm có thể ngang nhiên sử dụng mật mã RSA để giao tiếp bí mật với nhau mà không bị phát hiện. Cơ quan An ninh Quốc gia của nhiều nước bắt đầu điều phối các quy định về mã hóa và giải mã, tích cực tuyển mộ các nhà toán học tài năng ở khắp nơi trên thế giới. Tất nhiên là Singh chỉ đề cập đến N.S.A (*"National Security Agency"*), vì đó là cơ quan ông nắm thông tin rõ nhất.
@@ -74,7 +74,7 @@ Trong chương cuối cùng, Singh đề cập đến một ứng cử viên n�
 
 <figure>
   {{ fig_img_5 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Mảnh đất sét chứa những bản khắc của Linear B. ![Nguồn ảnh](https://www.britannica.com/topic/Linear-B)</figcaption>
+  <figcaption>Mảnh đất sét chứa những bản khắc của Linear B. [Nguồn ảnh](https://www.britannica.com/topic/Linear-B)</figcaption>
 </figure>
 
 Trong mỗi chương của cuốn sách, Simon Singh đã trình bày những điểm nổi bật nhất trong lịch sử mật mã học, người đọc dù là người chưa biết gì về mật mã, hay người đã có kiến thức về mật mã đều có thể đọc được, tác giả luôn đi từ câu chuyện lịch sử rồi mới diễn giải các vấn đề kỹ thuật một cách dễ hiểu. Singh còn để lại cho độc giả một *Thách thức Giải mã* trị giá 15 ngàn đô la cho ai giải mã được hết 10 văn bản mã hóa ở cuối sách. Bạn đọc có thể tham khảo thông tin trên website của tác giả: [simonsingh.net/cryptography/cipher-challenge/](https://simonsingh.net/cryptography/cipher-challenge/)
@@ -85,7 +85,7 @@ Trong mỗi chương của cuốn sách, Simon Singh đã trình bày những đ
 
 <figure>
   {{ fig_img_6 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Tác giả Simon Singh. ![Nguồn ảnh](https://simonsingh.net/simon-singh/press-photos/)</figcaption>
+  <figcaption>Tác giả Simon Singh. [Nguồn ảnh](https://simonsingh.net/simon-singh/press-photos/)</figcaption>
 </figure>
 
 Nếu có điều kiện, hãy cố gắng tìm đọc cuốn sách thú vị này nhé, chúc bạn một ngày tốt lành ! :)

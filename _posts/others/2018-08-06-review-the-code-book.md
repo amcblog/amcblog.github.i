@@ -20,13 +20,13 @@ Mã hóa và giải mã là những ví dụ điển hình cho *bài toán tính
 
 Cuốn sách viết về những vấn đề kể trên mà mình muốn giới thiệu ngày hôm nay là cuốn __"Mật mã - Từ cổ điển đến lượng tử"__ của tác giả *Simon Singh*, một nhà văn, nhà sản xuất truyền hình nổi tiếng chuyên về lĩnh vực toán và khoa học. Cuốn sách được xuất bản năm 1999 (trùng với năm sinh của người viết bài :'>), sau thành công của cuốn sách trước đó của ông là cuốn *"Định lý cuối cùng của Fermat"* (1997). Cuốn sách dễ dàng lôi cuốn người đọc bởi cách dẫn dắt vấn đề rất khéo léo của Singh, trước khi đi đến bài toán kỹ thuật cụ thể, ông kể cho người đọc nghe về một câu chuyện lịch sử gắn với bài toán đó. Ông gieo vấn đề để người đọc suy nghĩ trước, đó là những mật mã khó mà tưởng chừng như không thể giải mã nổi, rồi sau đó ông lại tiếp tục kể câu chuyện lịch sử của mình, xen vào đó là lỗ hổng của mật mã dần được tìm ra và cuối cùng là cách giải mã nó.
 
-{% capture fig_img_1 %}
+{% capture fig_img_1 width="380"%}
 ![Foo]({{ "/images/others/the-code-book.jpg" | relative_url }})
 {% endcapture %}
 
 <figure>
   {{ fig_img_1 | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Cuốn sách __"Mật mã - Từ cổ điển đến lượng tử"__</figcaption>
+  <figcaption>Cuốn sách "Mật mã - Từ cổ điển đến lượng tử"</figcaption>
 </figure>
 
 Cuốn sách bắt đầu với một câu chuyện ly kỳ về âm mưu Babington năm 1586, Nữ hoàng Mary của Scotland bị mang ra xét xử vì mưu đồ tạo phản, bà bị buộc tội đã âm mưu ám sát Nữ hoàng Elizabeth để cướp lấy vương miện nước Anh. Người của Elizabeth đã bắt chặn được những lá thư mà Mary gửi cho những kẻ mưu phản, có điều, những lá thư này đều đã được mã hóa. Nếu những lá thư này bị giải mã thì số phận của Mary coi như đã được định đoạt. Đây là những bước phát triển đầu tiên của mật mã, loại mật mã đơn giản nhất: *mật mã thay thế dùng một bảng chữ cái*  (*"monoalphabetic cipher"*) , đó là cách làm xáo trộn nội dung bức thư bừng cách thay thế các chữ cái trong bức thư bằng các chữ cái tương ứng trong bảng chữ cái khác. Bước đột phá lớn nhất trong việc tìm ra cách phá giải loại mật mã này được tìm ra bởi vị triết gia Ả Rập Al-Kindi. Trong hơn 1000 năm, *mật mã thay thế dùng một bảng chữ cái* từng được coi là không thể phá giải nối cho tới khi người ta tìm thấy những nghiên cứu của Al-Kindi. Phương pháp của Al-Kindi được gọi là *phân tích tần suất*, ông liệt kê số lần xuất hiện của tất cả các chữ cái trong bảng chữ cái, sắp xếp theo thứ tự giảm dần về số lần xuất hiện rồi đối chiếu lại với bảng tần suất xuất hiện các chữ cái của các văn bản thông thường, từ đó dựa vào sự giống nhau về tần suất cũng như suy luận về ngữ nghĩa các câu văn người giải mã có thể phá giải hoàn toàn văn bản mã hóa. Phương pháp này đã khiến cho những lá thư của Mary bị giải mã hoàn toàn và số phân của cô đã được định đoạt.

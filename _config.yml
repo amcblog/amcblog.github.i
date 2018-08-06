@@ -18,7 +18,7 @@ baseurl                  :
 repository               : "amcblog/amcblog.github.io"
 teaser                   : /images/posts-1.jpeg
 breadcrumbs              :   # false (default)
-words_per_minute         : 160
+words_per_minute         : 150
 comments:
   provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:

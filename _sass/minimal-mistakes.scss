@@ -14,6 +14,12 @@
 @import "minimal-mistakes/forms";
 @import "minimal-mistakes/tables";
 @import "minimal-mistakes/animations";
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 /* Components */
 @import "minimal-mistakes/buttons";
